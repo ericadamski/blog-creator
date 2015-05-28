@@ -76,7 +76,7 @@ p
 
 .carousel-caption
   position static
-  padding 0 15vh 0 15vh
+  padding 0 5vh 0 5vh
 
 .btn-carousel
   background-color #45907e

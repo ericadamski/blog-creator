@@ -16,9 +16,7 @@
     "jade": "^1.10.0"
   },
   "devDependencies": {},
-  "scripts": {
-    "test": "run"
-  },
+  "scripts": {},
   "author": "Eric Adamski",
   "license": "MIT"
 }
