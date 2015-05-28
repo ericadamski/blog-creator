@@ -2,7 +2,7 @@ doctype html(lang='en')
 head
     meta(charset='utf-8')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
-    meta(name='viewport', content='width=device-width, initial-scale=0.5')
+    meta(name='viewport', content='width=device-width, initial-scale=0.75')
     script(src='https://fb.me/react-0.13.3.js')
     script(
       src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.2/marked.min.js')
@@ -40,7 +40,7 @@ head
             li(data-target='#myCarousel', data-slide-to='4')
           .carousel-inner(role='listbox')
             .item
-              img.first-slide(alt='First slide', src='public/images/logo.png')
+              img.first-slide(alt='First slide', src='public/images/bike.png')
               .container
                 .carousel-caption
                   h1 Example headline.
@@ -51,7 +51,7 @@ head
                   p
                     a.btn.btn-lg.btn-carousel(href='#', role='button') Sign up today
             .item.active
-              img.second-slide(alt='Second slide', src='public/images/camp.png')
+              img.second-slide(alt='Second slide', src='public/images/bike2.png')
               .container
                 .carousel-caption
                   h1 Another example headline.
@@ -60,7 +60,7 @@ head
                   p
                     a.btn.btn-lg.btn-carousel(href='#', role='button') Learn more
             .item
-              img.third-slide(alt='Third slide', src='public/images/fall2.png')
+              span.glyphicon.glyphicon.glyphicon-upload.glyph-slide.third-slide(alt='Third slide')
               .container
                 .carousel-caption
                   h1 One more for good measure.
@@ -69,7 +69,7 @@ head
                   p
                     a.btn.btn-lg.btn-carousel(href='#', role='button') Browse gallery
             .item
-              img.fourth-slide(alt='Fourth slide',   src='public/images/StrongeOrange.png')
+              span.glyphicon.glyphicon.glyphicon-barcode.glyph-slide.fourth-slide(alt='Fourth slide')
               .container
                 .carousel-caption
                   h1 One more for good measure.
@@ -78,7 +78,7 @@ head
                   p
                     a.btn.btn-lg.btn-carousel(href='#', role='button') Browse gallery
             .item
-              img.fifth-slide(alt='Fifth slide', src='public/images/birthdays2.png')
+              span.glyphicon.glyphicon.glyphicon-camera.glyph-slide.fifth-slide(alt='Fifth slide')
               .container
                 .carousel-caption
                   h1 One more for good measure.
